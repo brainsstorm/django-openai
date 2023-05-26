@@ -43,16 +43,16 @@ Django-OpenAI is an open-source chat application that integrates with OpenAI's G
 4. Run the Django server:
 
     ```shell
-    python manage.py runserver
+    daphne chatapp.asgi:application
     ```
 
 The application should now be running on `localhost:8000`.
 
 ## Usage
 
-To start a chat session, go to `localhost:8000/start-chat`.
+To start a chat session, go to `localhost:8000/`.
 
-To view an existing chat session, go to `localhost:8000/chat/<chat-id>`.
+To view an existing chat session, go to `localhost:8000/`.
 
 ## Contributing
 
@@ -68,8 +68,8 @@ This project is licensed under the terms of the MIT License - see the [LICENSE](
 
 ## Contact
 
-If you have any questions, feel free to reach out to us.
+If you have any questions, feel free to reach out.
 
-- Your Name
-- Your Email
+- Brains Storm
+- jg@clientsworks.com
 - Project Link: https://github.com/brainsstorm/django-openai
