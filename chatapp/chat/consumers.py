@@ -77,7 +77,7 @@ async def generate_response(
     temperature=0.7,
     max_attempts=5
 ):
-    openai.api_key = "your_openai_api_key"
+    openai.api_key = settings.OPENAI_API_KEY
     message = ""
     partial_message = ""
     attempts = 0

@@ -122,6 +122,8 @@ STATICFILES_DIRS = (os.path.join(BASE_DIR, "static"),)
 
 load_dotenv()
 
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+
 REDIS_HOST = os.getenv("REDIS_HOST", "host.docker.internal")
 REDIS_PORT = int(os.getenv("REDIS_PORT", "18573"))
 REDIS_PASSWORD = os.getenv("REDIS_PASSWORD", "password")
