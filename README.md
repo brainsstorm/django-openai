@@ -1,6 +1,6 @@
 # django-openai
 
-Django-OpenAI is an open-source chat application that integrates with OpenAI's GPT-3.5-Turbo, featuring real-time streaming and a sleek, user-friendly interface. Designed with simplicity and extensibility in mind, it's easy to set up and customizable to your needs.
+Django-OpenAI is an open-source chat application that integrates with OpenAI's GPT-3.5-Turbo, featuring real-time streaming and a sleek, user-friendly interface. Designed with responsiveness, simplicity, and extensibility in mind: it's easy to set up and customizable to your needs.
 
 ![Screenshot of Django-OpenAI](https://i.ibb.co/7zfCg2p/Django-Open-AI.png)
 
